@@ -101,7 +101,7 @@ header {
 }
 
 section {
-    padding: 100px 10%;
+    padding: 80px 8%;
 }
 
 .home {
@@ -527,7 +527,7 @@ header.sticky{
 
 }
 .layer:hover{
-    background: linear-gradient(rgba(0,0,0,0.5)0%, #191919);
+    background: linear-gradient(rgba(0,0,0,0.5)0%, var(--main-color));
 }
 .layer h3{
     position: absolute;
@@ -768,6 +768,10 @@ header.sticky{
     .navlist.active{
         top: 100%;
     }
+    .top-btn {
+        padding: 8px 10px;
+    }
+
 }
 @media (max-width: 970px){
     .home{
@@ -823,9 +827,12 @@ header.sticky{
         ;
 
     }
+    #map{
+        padding: 0%;
+    }
     .map{
         min-height: 300px;
-        padding: 0;
+        padding: 0%;
     }
     .formbox .row50{
         display: flex;
@@ -859,3 +866,4 @@ header.sticky{
     background: var(--main-color);
     color: var(--bg-color);
 }
+
