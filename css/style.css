@@ -193,7 +193,7 @@ span {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-2rem);
+        transform: translateY(-1.2rem);
     }
     100% {
         transform: translateY(0);
