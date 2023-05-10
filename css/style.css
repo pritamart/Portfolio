@@ -225,6 +225,38 @@ header.sticky{
     padding: 10px 5%;
 }
 
+.pcontainer{
+    position: relative;
+    display: flex;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.card{
+    position: relative;
+    width: 350px;
+    height: 180px;
+    background: var(--bg-color);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -434,7 +466,48 @@ header.sticky{
     }
 }
 
+/* soft skill style  */
 
+  .wrapper-center {
+      display: grid;
+      grid-template-columns: repeat(4,2fr);
+      align-items: center;
+      justify-content: center;
+      grid-column-gap: 20px;
+      text-align: center;
+      /* height: 50vh; */
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  
+  /*===== The CSS =====*/
+  .progress{
+      width: 150px;
+      height: 150px;
+      z-index: 1;
+  }
+  .progress .track, .progress .fill{
+      fill: rgba(0, 0, 0, 0);
+      stroke-width: 3;
+      transform: rotate(90deg)translate(0px, -80px);
+  }
+  .progress .track{
+      stroke: #b2cce0;
+  }
+  .progress .fill {
+      stroke: #ff0000;
+      stroke-dasharray: 219.99078369140625;
+      stroke-dashoffset: -219.99078369140625;
+      transition: stroke-dashoffset 1s;
+      border-radius: 25px;
+      position: relative;
+  }
+  .progress .value {
+      fill: #ff0000;
+      text-anchor: middle;
+  }
+
+/* soft skill style end */
 .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -771,6 +844,12 @@ header.sticky{
     .top-btn {
         padding: 8px 10px;
     }
+    .wrapper-center {
+
+        grid-template-columns: repeat(2,2fr);
+
+    }
+  
 
 }
 @media (max-width: 970px){
@@ -803,6 +882,10 @@ header.sticky{
     section{
         padding: 65px 3%;
         transition: .3s;
+    }
+
+    .project-content{
+        padding: 20px 0%;
     }
 }
 @media (max-width: 768px) {
@@ -845,6 +928,12 @@ header.sticky{
     .contact{
         padding: 20px;
     }
+    .wrapper-center {
+
+        grid-template-columns: repeat(2,2fr);
+
+    }
+  
 }
 .end{
     padding: 20px 15%;
