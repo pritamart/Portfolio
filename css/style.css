@@ -785,7 +785,7 @@ header.sticky{
         transition: .3s;
     }
     section{
-        padding: 70px 3%;
+        padding: 70px 0%;
         transition: .3s;
     }
     :root {
@@ -868,7 +868,7 @@ header.sticky{
         --h2-font: 2rem;       
     }
     section{
-        padding: 65px 3%;
+        padding: 45px 0%;
         transition: .3s;
     }
 
