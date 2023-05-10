@@ -245,18 +245,6 @@ header.sticky{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .about{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -470,7 +458,7 @@ header.sticky{
 
   .wrapper-center {
       display: grid;
-      grid-template-columns: repeat(4,2fr);
+      grid-template-columns: repeat(4,1fr);
       align-items: center;
       justify-content: center;
       grid-column-gap: 20px;
@@ -928,7 +916,7 @@ header.sticky{
     }
     .wrapper-center {
 
-        grid-template-columns: repeat(2,2fr);
+        grid-template-columns: repeat(2,1fr);
 
     }
   
