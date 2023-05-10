@@ -225,6 +225,99 @@ header.sticky{
     padding: 10px 5%;
 }
 
+/* service */
+.scontainner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.scontainner .sbox{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background-color: var(--bg-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    /* margin-top: 20px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.scontainner .sbox .sicon {
+    position: relativez;
+    width: 80px;
+    height: 80px;
+    color: var(--bg-color);
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid var(--bg-color);
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: .1s;
+}
+.scontainner .sbox:nth-child(1) .sicon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.scontainner .sbox:nth-child(1):hover .sicon{
+    box-shadow: 0 0 0 400px #e91e63;
+    /* background: #e91e63; */
+}
+.scontainner .sbox:nth-child(2) .sicon{
+    box-shadow: 0 0 0 0 #23e629;
+    background: #23e629;
+}
+.scontainner .sbox:nth-child(2):hover .sicon{
+    box-shadow: 0 0 0 400px #23e629;
+    /* background: #23e629; */
+}
+.scontainner .sbox:nth-child(3) .sicon{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.scontainner .sbox:nth-child(3):hover .sicon{
+    box-shadow: 0 0 0 400px #2196f3;
+    /* background: #23e629; */
+}
+.scontainner .sbox .scontent{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.scontainner .sbox:hover .scontent{
+    color: #fff;
+}
+.aa{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scontainner .sbox::before
+{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .2);
+    z-index: 2;
+
+}
+
+
+
+
 .pcontainer{
     position: relative;
     display: flex;
@@ -888,6 +981,11 @@ header.sticky{
 
     .project-content{
         padding: 20px 0%;
+    }
+    .scontainner .sbox{
+
+        margin-top: 20px;
+
     }
 }
 @media (max-width: 768px) {
