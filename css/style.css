@@ -245,6 +245,18 @@ header.sticky{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .about{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -458,7 +470,7 @@ header.sticky{
 
   .wrapper-center {
       display: grid;
-      grid-template-columns: repeat(4,1fr);
+      grid-template-columns: repeat(4,2fr);
       align-items: center;
       justify-content: center;
       grid-column-gap: 20px;
@@ -777,7 +789,7 @@ header.sticky{
 
 @media (max-width: 1300px){
     header{
-        padding: 16px 11%;
+        padding: 16px 3%;
         transition: .3s;
     }
     header.sticky{
@@ -831,6 +843,8 @@ header.sticky{
     }
     .top-btn {
         padding: 8px 10px;
+        font-size: 1rem;
+        margin-right: 54px;
     }
     .wrapper-center {
 
@@ -868,15 +882,13 @@ header.sticky{
         --h2-font: 2rem;       
     }
     section{
-        padding: 45px 3%;
+        padding: 65px 3%;
         transition: .3s;
     }
-    header {
-    padding: 16px 11%;
-    transition: .3s;
+
+    .project-content{
+        padding: 20px 0%;
     }
-
-
 }
 @media (max-width: 768px) {
     main.row{
@@ -920,7 +932,7 @@ header.sticky{
     }
     .wrapper-center {
 
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,2fr);
 
     }
   
