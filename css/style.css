@@ -821,7 +821,7 @@ header.sticky{
         right: 0;
         flex-direction: column;
         background: var(--main-color);
-        text-align: right;
+        text-align: center;
         transition: all .40s;
     }
     .navlist a{
