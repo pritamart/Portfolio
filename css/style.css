@@ -884,9 +884,7 @@ header.sticky{
         transition: .3s;
     }
 
-    .project-content{
-        padding: 20px 3%;
-    }
+
 }
 @media (max-width: 768px) {
     main.row{
