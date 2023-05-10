@@ -777,7 +777,7 @@ header.sticky{
 
 @media (max-width: 1300px){
     header{
-        padding: 16px 3%;
+        padding: 16px 11%;
         transition: .3s;
     }
     header.sticky{
