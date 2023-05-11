@@ -986,6 +986,13 @@ header.sticky {
         padding: 70px 3%;
         transition: .3s;
     }
+    .dark-them{
+        --big-font: 4rem;
+        --h2-font: 2.3rem;
+        --p-font: 1rem;
+        transition: .3s;
+
+    }
 
     :root {
         --big-font: 4rem;
@@ -1010,7 +1017,7 @@ header.sticky {
         left: 0;
         right: 0;
         flex-direction: column;
-        background: var(--main-color);
+        background: rgb(65, 64, 64);
         text-align: center;
         transition: all .40s;
     }
@@ -1019,8 +1026,8 @@ header.sticky {
         display: block;
         padding: 1.2rem;
         margin: 1.5rem;
-        border-right: 2px solid var(--bg-color);
-        color: var(--bg-color);
+        border-left: 5px solid var(--main-color);
+        color: #ffff;
     }
 
     .navlist a:hover {
