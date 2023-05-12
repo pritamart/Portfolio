@@ -18,6 +18,7 @@
     --h2-font: 2.5rem;
     --p-font: 1.1rem;
     --skill-barr-color: rgba(0, 0, 0, 0.199);
+    --box-shadow--color: 0px 3px 12px 0px #ff4a0360;
     --contact-background-color: rgba(255, 255, 255, 0.637);
     
 }
@@ -26,13 +27,14 @@
     --bg-color: #000;
     --text-color: #ffffff;
     --secound-color: #a09dab;
-    /* --main-color: #754ef9; */
-    --main-color: #ff0000;
+    --main-color: #754ef9;
+    /* --main-color: #ff0000; */
     --box-shadow: 0px 0px 10px rgba(179, 175, 175, 0.1);
     --big-font: 5rem;
     --h2-font: 2.5rem;
     --skill-barr-color: rgba(211, 206, 206, 0.199);
     --contact-background-color: rgb(255, 255, 255);
+    --box-shadow--color: 0px 3px 12px 0px #0307ff60;
     --p-font: 1.1rem;
 }
 
@@ -694,7 +696,8 @@ header.sticky {
 }
 
 .col .contents .box:hover {
-    box-shadow: 0px 3px 12px 0px #ff4a0360;
+    box-shadow: var(--box-shadow--color);
+    /* #ff4a0360; */
     border: 1px solid transparent;
     border-radius: 20px;
     transition: all 0.4s;
@@ -919,6 +922,7 @@ header.sticky {
 
 .inputBox input[type="submit"]:hover {
     box-shadow: inset 5px 5px 8px #e62300, inset -5px -5px 8px #fc775f57;
+    
 }
 
 .information {
