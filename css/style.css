@@ -1200,3 +1200,69 @@ header.sticky {
     background: var(--main-color);
     color: #fff;
 }
+
+
+/* this css  */
+
+.card {
+    background-color: var(--secound-color);
+    border-radius: 20px;
+    height: 100%;
+    padding: .5rem;
+}
+.img-fluid {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+iframe{
+    border-radius: 5px;
+    object-fit: cover;
+}
+.p_img{
+    object-fit: cover;
+    /* display: inline; */
+}
+/* .responsive{
+    min-height: 200px;
+    max-height: 200px;
+} */
+.project_btn{
+    margin-top: 18px;
+}
+.p_project{
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 18px;
+}
+.p_project_2{
+    color: rgb(94, 90, 90);
+    /* font-weight: 500; */
+    font-size: 14px;   
+}
+.btn_project{
+    margin-top: 15px;
+}
+.btn, .btn:active, .btn:hover{
+    color: var(--bg-color);
+    font-size: 80%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn{
+     background-color: var(--main-color);
+}
+
+/* .btn:hover, .btn:active{
+    background-color: var(--main-color);
+} */
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+ *:focus{
+    outline: none;
+}
